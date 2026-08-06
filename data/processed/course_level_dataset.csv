@@ -1,0 +1,61 @@
+CourseID,TotalEnrollments,TotalRevenue,CourseName,CourseCategory,CourseType,CourseLevel,CoursePrice,CourseDuration,CourseRating,TeacherID,TeacherName,Expertise,YearsOfExperience,TeacherRating,PriceBand,DurationBucket,RatingTier,ExperienceBucket,AverageMonthlyEnrollments,AverageMonthlyRevenue
+CR00001,164,77453.92,Python Basics,Programming,Paid,Beginner,472.28,11.0,4.74,TC00040,Kimberly Miller,Cybersecurity,24,4.58,High,Short,Excellent,10+,13.666666666666666,6454.493333333333
+CR00002,149,0.0,Java Programming,Programming,Free,Intermediate,0.0,37.7,2.43,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Long,Average,10+,12.416666666666666,0.0
+CR00003,173,0.0,C++ for Beginners,Programming,Free,Beginner,0.0,19.53,3.85,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Medium,Average,10+,14.416666666666666,0.0
+CR00004,154,0.0,Advanced Python,Programming,Free,Beginner,0.0,45.13,2.88,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Average,10+,12.833333333333334,0.0
+CR00005,166,0.0,Full Stack Development,Programming,Free,Beginner,0.0,28.68,1.28,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Average,10+,13.833333333333334,0.0
+CR00006,156,43113.72,Graphic Design Basics,Design,Paid,Advanced,276.37,48.84,2.72,TC00042,Yolanda Levine,Machine Learning,21,4.97,Medium,Long,Average,10+,13.0,3592.81
+CR00007,178,0.0,UI/UX Design,Design,Free,Advanced,0.0,48.68,2.61,TC00047,Brad Griffin,Design,4,1.79,Free,Long,Average,3-5 years,14.833333333333334,0.0
+CR00008,158,0.0,Photoshop Mastery,Design,Free,Advanced,0.0,2.87,1.52,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Short,Average,10+,13.166666666666666,0.0
+CR00009,155,0.0,Web Design Fundamentals,Design,Free,Beginner,0.0,48.19,4.51,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Excellent,10+,12.916666666666666,0.0
+CR00010,180,0.0,3D Modeling,Design,Free,Advanced,0.0,15.29,4.45,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Good,10+,15.0,0.0
+CR00011,151,49229.02,Entrepreneurship 101,Business,Paid,Intermediate,326.02,11.31,2.69,TC00042,Yolanda Levine,Machine Learning,21,4.97,Medium,Short,Average,10+,12.583333333333334,4102.418333333333
+CR00012,173,84410.16,Business Strategy,Business,Paid,Advanced,487.92,36.01,3.64,TC00042,Yolanda Levine,Machine Learning,21,4.97,High,Long,Average,10+,14.416666666666666,7034.18
+CR00013,170,0.0,Finance for Startups,Business,Free,Advanced,0.0,15.84,2.0,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Average,10+,14.166666666666666,0.0
+CR00014,171,0.0,Sales Mastery,Business,Free,Advanced,0.0,22.29,3.15,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Medium,Average,10+,14.25,0.0
+CR00015,168,47888.4,Leadership Essentials,Business,Paid,Beginner,285.05,34.78,1.96,TC00042,Yolanda Levine,Machine Learning,21,4.97,Medium,Medium,Average,10+,14.0,3990.7000000000003
+CR00016,153,0.0,Digital Marketing,Marketing,Free,Intermediate,0.0,42.68,4.72,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Excellent,10+,12.75,0.0
+CR00017,158,0.0,SEO Mastery,Marketing,Free,Advanced,0.0,29.37,4.79,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Medium,Excellent,10+,13.166666666666666,0.0
+CR00018,163,0.0,Social Media Marketing,Marketing,Free,Advanced,0.0,15.44,2.01,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Average,10+,13.583333333333334,0.0
+CR00019,177,0.0,Content Marketing,Marketing,Free,Advanced,0.0,18.0,2.98,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Average,10+,14.75,0.0
+CR00020,155,0.0,Email Marketing,Marketing,Free,Intermediate,0.0,46.25,4.11,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Good,10+,12.916666666666666,0.0
+CR00021,196,0.0,Data Analysis with Python,Data Science,Free,Intermediate,0.0,1.2,3.6,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Short,Average,10+,16.333333333333332,0.0
+CR00022,177,0.0,Data Visualization,Data Science,Free,Beginner,0.0,32.64,3.65,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Medium,Average,10+,14.75,0.0
+CR00023,185,0.0,Machine Learning Fundamentals,Data Science,Free,Intermediate,0.0,9.71,3.02,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Short,Average,10+,15.416666666666666,0.0
+CR00024,166,19534.88,Big Data Analytics,Data Science,Paid,Advanced,117.68,48.09,2.57,TC00042,Yolanda Levine,Machine Learning,21,4.97,Low,Long,Average,10+,13.833333333333334,1627.9066666666668
+CR00025,192,57517.44,Statistical Analysis,Data Science,Paid,Beginner,299.57,48.32,3.74,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Medium,Long,Average,10+,16.0,4793.12
+CR00026,172,0.0,Intro to Machine Learning,Machine Learning,Free,Intermediate,0.0,47.7,4.73,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Excellent,10+,14.333333333333334,0.0
+CR00027,152,0.0,Neural Networks,Machine Learning,Free,Advanced,0.0,9.3,1.81,TC00049,Valerie Wiley,Machine Learning,6,3.46,Free,Short,Average,6-10 years,12.666666666666666,0.0
+CR00028,171,133.38,Deep Learning,Machine Learning,Paid,Advanced,0.78,44.96,3.89,TC00042,Yolanda Levine,Machine Learning,21,4.97,Low,Long,Average,10+,14.25,11.115
+CR00029,155,0.0,Natural Language Processing,Machine Learning,Free,Beginner,0.0,16.33,1.13,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Medium,Average,10+,12.916666666666666,0.0
+CR00030,169,0.0,Reinforcement Learning,Machine Learning,Free,Intermediate,0.0,38.49,1.73,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Average,10+,14.083333333333334,0.0
+CR00031,160,0.0,Network Security,Cybersecurity,Free,Intermediate,0.0,26.52,1.91,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Average,10+,13.333333333333334,0.0
+CR00032,163,0.0,Ethical Hacking,Cybersecurity,Free,Advanced,0.0,16.74,2.38,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Average,10+,13.583333333333334,0.0
+CR00033,167,0.0,Cybersecurity Fundamentals,Cybersecurity,Free,Intermediate,0.0,48.25,3.93,TC00032,James Holder,Cybersecurity,1,3.11,Free,Long,Average,0-2 years,13.916666666666666,0.0
+CR00034,150,59139.0,Data Encryption,Cybersecurity,Paid,Intermediate,394.26,47.44,1.35,TC00040,Kimberly Miller,Cybersecurity,24,4.58,High,Long,Average,10+,12.5,4928.25
+CR00035,179,0.0,Cyber Threat Intelligence,Cybersecurity,Free,Beginner,0.0,42.59,4.94,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Long,Excellent,10+,14.916666666666666,0.0
+CR00036,177,0.0,Agile Project Management,Project Management,Free,Beginner,0.0,15.75,4.68,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Excellent,10+,14.75,0.0
+CR00037,153,0.0,Scrum Essentials,Project Management,Free,Intermediate,0.0,33.93,3.45,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Average,10+,12.75,0.0
+CR00038,158,54132.380000000005,Risk Management,Project Management,Paid,Intermediate,342.61,17.14,4.84,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Medium,Medium,Excellent,10+,13.166666666666666,4511.031666666667
+CR00039,167,57900.56999999999,Project Planning,Project Management,Paid,Advanced,346.71,3.42,1.23,TC00042,Yolanda Levine,Machine Learning,21,4.97,Medium,Short,Average,10+,13.916666666666666,4825.0475
+CR00040,174,57070.26,Leadership in Projects,Project Management,Paid,Beginner,327.99,12.13,1.51,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Medium,Short,Average,10+,14.5,4755.8550000000005
+CR00041,166,8940.76,Financial Accounting,Finance,Paid,Beginner,53.86,47.08,2.47,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Low,Long,Average,10+,13.833333333333334,745.0633333333334
+CR00042,183,0.0,Investment Strategies,Finance,Free,Intermediate,0.0,34.83,4.1,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Medium,Good,10+,15.25,0.0
+CR00043,182,0.0,Corporate Finance,Finance,Free,Beginner,0.0,31.77,4.14,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Medium,Good,10+,15.166666666666666,0.0
+CR00044,161,19165.440000000002,Personal Finance,Finance,Paid,Intermediate,119.04,23.41,2.75,TC00037,Debra Escobar,Finance,8,4.39,Low,Medium,Average,6-10 years,13.416666666666666,1597.1200000000001
+CR00045,172,0.0,Financial Modeling,Finance,Free,Advanced,0.0,6.36,1.59,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Short,Average,10+,14.333333333333334,0.0
+CR00046,140,34734.0,AI for Beginners,Artificial Intelligence,Paid,Beginner,248.1,9.4,1.2,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Medium,Short,Average,10+,11.666666666666666,2894.5
+CR00047,166,14871.94,Natural Language Processing,Artificial Intelligence,Paid,Intermediate,89.59,1.55,2.68,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Low,Short,Average,10+,13.833333333333334,1239.3283333333334
+CR00048,186,0.0,AI Ethics,Artificial Intelligence,Free,Beginner,0.0,42.7,3.64,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Average,10+,15.5,0.0
+CR00049,163,67728.13,Deep Learning,Artificial Intelligence,Paid,Intermediate,415.51,28.33,3.11,TC00042,Yolanda Levine,Machine Learning,21,4.97,High,Medium,Average,10+,13.583333333333334,5644.010833333334
+CR00050,174,85416.59999999999,Computer Vision,Artificial Intelligence,Paid,Beginner,490.9,7.55,4.55,TC00042,Yolanda Levine,Machine Learning,21,4.97,High,Short,Excellent,10+,14.5,7118.049999999999
+CR00051,171,6479.1900000000005,HTML & CSS,Web Development,Paid,Advanced,37.89,24.11,1.3,TC00042,Yolanda Levine,Machine Learning,21,4.97,Low,Medium,Average,10+,14.25,539.9325
+CR00052,154,0.0,JavaScript Mastery,Web Development,Free,Beginner,0.0,40.76,2.2,TC00049,Valerie Wiley,Machine Learning,6,3.46,Free,Long,Average,6-10 years,12.833333333333334,0.0
+CR00053,163,0.0,React for Beginners,Web Development,Free,Advanced,0.0,40.07,2.67,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Long,Average,10+,13.583333333333334,0.0
+CR00054,178,0.0,Backend Development with Node.js,Web Development,Free,Beginner,0.0,48.57,3.32,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Long,Average,10+,14.833333333333334,0.0
+CR00055,178,10202.96,Full-Stack Web Development,Web Development,Paid,Advanced,57.32,43.95,4.74,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Low,Long,Excellent,10+,14.833333333333334,850.2466666666666
+CR00056,148,31433.719999999998,Google Ads Mastery,Digital Marketing,Paid,Advanced,212.39,22.89,3.15,TC00042,Yolanda Levine,Machine Learning,21,4.97,Medium,Medium,Average,10+,12.333333333333334,2619.4766666666665
+CR00057,140,24827.600000000002,SEO for E-commerce,Digital Marketing,Paid,Advanced,177.34,49.73,3.89,TC00042,Yolanda Levine,Machine Learning,21,4.97,Medium,Long,Average,10+,11.666666666666666,2068.9666666666667
+CR00058,194,0.0,Social Media Strategy,Digital Marketing,Free,Beginner,0.0,1.46,4.44,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Short,Good,10+,16.166666666666668,0.0
+CR00059,161,0.0,Affiliate Marketing,Digital Marketing,Free,Intermediate,0.0,5.95,4.66,TC00040,Kimberly Miller,Cybersecurity,24,4.58,Free,Short,Excellent,10+,13.416666666666666,0.0
+CR00060,165,0.0,Content Creation,Digital Marketing,Free,Beginner,0.0,8.95,2.14,TC00042,Yolanda Levine,Machine Learning,21,4.97,Free,Short,Average,10+,13.75,0.0

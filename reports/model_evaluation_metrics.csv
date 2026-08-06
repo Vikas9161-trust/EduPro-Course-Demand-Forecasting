@@ -1,0 +1,25 @@
+Model,MAE,RMSE,R2,Target
+Lasso,2.8388,3.612,-0.0371,Static Enrollments
+Ridge,2.8568,3.6491,-0.0585,Static Enrollments
+Linear Regression,2.8603,3.6522,-0.0603,Static Enrollments
+Gradient Boosting,3.0,3.7933,-0.1438,Static Enrollments
+XGBoost,3.2727,3.9843,-0.2619,Static Enrollments
+Random Forest,3.3749,4.0852,-0.3266,Static Enrollments
+Ridge,389.929,796.2274,0.8727,Static Revenue
+Lasso,390.8579,798.2172,0.872,Static Revenue
+Linear Regression,391.3754,798.4934,0.8719,Static Revenue
+Gradient Boosting,349.2178,854.7082,0.8533,Static Revenue
+Random Forest,384.4792,892.3292,0.8401,Static Revenue
+XGBoost,381.6468,895.928,0.8388,Static Revenue
+Ridge,2.8918,3.6108,-0.0364,Dynamic Enrollments
+Lasso,2.8378,3.611,-0.0365,Dynamic Enrollments
+Linear Regression,2.9056,3.6191,-0.0412,Dynamic Enrollments
+Gradient Boosting,2.8172,3.6795,-0.0762,Dynamic Enrollments
+XGBoost,2.8272,3.7078,-0.0929,Dynamic Enrollments
+Random Forest,2.858,3.7436,-0.1141,Dynamic Enrollments
+Ridge,434.4994,810.6974,0.868,Dynamic Revenue
+Lasso,439.3806,812.9774,0.8673,Dynamic Revenue
+Linear Regression,441.1223,813.8807,0.867,Dynamic Revenue
+Random Forest,375.2172,900.7278,0.8371,Dynamic Revenue
+Gradient Boosting,372.4929,912.7292,0.8327,Dynamic Revenue
+XGBoost,417.3785,1048.5031,0.7792,Dynamic Revenue
