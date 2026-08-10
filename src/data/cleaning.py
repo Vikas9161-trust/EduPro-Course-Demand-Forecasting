@@ -115,6 +115,35 @@ def clean_transactions(df: pd.DataFrame) -> pd.DataFrame:
     df = df[df['Amount'] >= 0]
     
     return df
+def clean_users(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Cleans the Users dataframe.
+    - Removes duplicates.
+    - Corrects data types.
+    - Handles missing values.
+    - Filters invalid ages.
+    """
+    df = df.copy()
+    
+    # Remove duplicates
+    df = df.drop_duplicates()
+    
+    # Correct data types
+    df['UserID'] = df['UserID'].astype(str).str.strip()
+    df['UserName'] = df['UserName'].astype(str).str.strip()
+    df['Gender'] = df['Gender'].astype(str).str.strip()
+    df['Email'] = df['Email'].astype(str).str.strip()
+    
+    df['Age'] = pd.to_numeric(df['Age'], errors='coerce')
+    
+    # Handle missing values
+    median_age = df['Age'].median()
+    df['Age'] = df['Age'].fillna(median_age if not pd.isna(median_age) else 25.0)
+    
+    # Age must be reasonable (e.g. between 5 and 100)
+    df = df[(df['Age'] >= 5) & (df['Age'] <= 100)]
+    
+    return df
 
 def clean_and_save_data(excel_path: str, output_dir: str):
     """
@@ -132,9 +161,10 @@ def clean_and_save_data(excel_path: str, output_dir: str):
     courses_df = xl.parse("Courses") if "Courses" in sheet_names else None
     teachers_df = xl.parse("Teachers") if "Teachers" in sheet_names else None
     transactions_df = xl.parse("Transactions") if "Transactions" in sheet_names else None
+    users_df = xl.parse("Users") if "Users" in sheet_names else None
     
-    if courses_df is None or teachers_df is None or transactions_df is None:
-        raise ValueError("Excel file must contain Courses, Teachers, and Transactions sheets.")
+    if courses_df is None or teachers_df is None or transactions_df is None or users_df is None:
+        raise ValueError("Excel file must contain Courses, Teachers, Transactions, and Users sheets.")
         
     print("Cleaning Courses...")
     courses_clean = clean_courses(courses_df)
@@ -145,19 +175,24 @@ def clean_and_save_data(excel_path: str, output_dir: str):
     print("Cleaning Transactions...")
     transactions_clean = clean_transactions(transactions_df)
     
+    print("Cleaning Users...")
+    users_clean = clean_users(users_df)
+    
     # Save processed CSVs
     os.makedirs(output_dir, exist_ok=True)
     
     courses_clean.to_csv(os.path.join(output_dir, "cleaned_courses.csv"), index=False)
     teachers_clean.to_csv(os.path.join(output_dir, "cleaned_teachers.csv"), index=False)
     transactions_clean.to_csv(os.path.join(output_dir, "cleaned_transactions.csv"), index=False)
+    users_clean.to_csv(os.path.join(output_dir, "cleaned_users.csv"), index=False)
     
     print(f"Cleaned CSVs saved to {output_dir}")
     print(f"Courses cleaned shape: {courses_clean.shape}")
     print(f"Teachers cleaned shape: {teachers_clean.shape}")
     print(f"Transactions cleaned shape: {transactions_clean.shape}")
+    print(f"Users cleaned shape: {users_clean.shape}")
     
-    return courses_clean, teachers_clean, transactions_clean
+    return courses_clean, teachers_clean, transactions_clean, users_clean
 
 if __name__ == "__main__":
     raw_excel = r"c:\Users\hp\Desktop\revenue\data\raw\EduPro_Dataset.xlsx"

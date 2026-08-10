@@ -110,16 +110,19 @@ def process_features(processed_dir: str):
     courses_path = os.path.join(processed_dir, "cleaned_courses.csv")
     teachers_path = os.path.join(processed_dir, "cleaned_teachers.csv")
     transactions_path = os.path.join(processed_dir, "cleaned_transactions.csv")
+    users_path = os.path.join(processed_dir, "cleaned_users.csv")
     
     courses = pd.read_csv(courses_path)
     teachers = pd.read_csv(teachers_path)
     transactions = pd.read_csv(transactions_path)
+    users = pd.read_csv(users_path)
     
     # Step 3: Merge Dataset (Transaction-level)
     print("Merging datasets...")
-    # Transactions has CourseID and TeacherID. Course does not have TeacherID.
+    # Transactions has CourseID, TeacherID, and UserID. Course does not have TeacherID.
     merged = transactions.merge(courses, on="CourseID", how="left")
     merged = merged.merge(teachers, on="TeacherID", how="left")
+    merged = merged.merge(users, on="UserID", how="left", suffixes=('_teacher', '_user'))
     
     # Save transaction-level merged dataset
     merged.to_csv(os.path.join(processed_dir, "merged_dataset.csv"), index=False)

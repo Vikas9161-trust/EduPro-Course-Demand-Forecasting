@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "name": "Vikas Pandey",
+    "email": "vikas.pandey@edupro.com",
+    "role": "Data Analyst",
+    "phone": "+91 98765 43210",
+    "avatar_seed": "Vikas"
+  },
+  "preferences": {
+    "language": "English",
+    "timezone": "(GMT+05:30) Asia/Kolkata",
+    "date_format": "31 May 2025",
+    "currency": "INR (\u20b9)",
+    "items_per_page": "25"
+  },
+  "notifications": {
+    "email": true,
+    "course_updates": true,
+    "revenue_alerts": true,
+    "report_generation": true,
+    "system_alerts": true,
+    "marketing": false
+  },
+  "security": {
+    "2fa_enabled": true,
+    "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "sessions": [
+      {
+        "device": "Chrome / Windows",
+        "location": "New Delhi, IN",
+        "last_active": "Now",
+        "current": true
+      }
+    ]
+  },
+  "appearance": {
+    "theme": "Dark",
+    "sidebar_style": "Gradient",
+    "compact_mode": false
+  },
+  "system": {
+    "auto_refresh": "5 Minutes",
+    "retention": "12 Months",
+    "export_format": "Excel (.xlsx)",
+    "maintenance": false
+  }
+}
